@@ -19,7 +19,7 @@ WORKDIR /var/www/html
 COPY . .
 
 # Install PHP dependencies (SendGrid included)
-RUN composer install --no-dev --prefer-dist --optimize-autoloader
+#RUN composer install --no-dev --prefer-dist --optimize-autoloader
 
 # Expose port 80
 EXPOSE 80
